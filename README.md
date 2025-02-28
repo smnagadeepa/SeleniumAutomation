@@ -5,43 +5,40 @@ This project is a Hybrid Test Automation Framework built using Selenium 4 and Te
 
 ## Project Structure 
 TutorialProject/
-├── src/main/java # Main source code
-    ├── com.tutorialproject.qa.config # Configuration file
-        ├── config.properties # Configuration properties
-    ├── com.tutorialproject.qa.listeners # Listeners file
-        ├── MyListeners.java # Listeners java code
-    ├── com.tutorialproject.qa.pages # Pages
-        ├── Account.java # Account related Page
-        ├── AccountSuccess.java # Account Success Page 
-        ├── HomePage.java # Home Page
-        ├── LoginPage.java # Login Page
-        ├── RegisterPage.java # Register Page
-        ├── SearchPage.java # Search Page
-    ├── com.tutorialproject.qa.tesdata # TestData file
-        ├── testdata.properties # TestData Properties
-        ├── tutorialProjectTestData.xlsx # ExcelSheet of TestData
-    ├── com.tutorialproject.qa.utils # TestData file
-        ├── ExtremeReporter.java # Contains ExtentReports
-        ├── Utilites.java # Contains Utilities
-├── src/test/java # Test scripts
-    ├── com.tutorialproject.qa.base # Base class file
-        ├── Base.java # Base class 
-    ├── com.tutorialproject.qa.testcases # Contains Test Cases code
-        ├── LoginTest.java # Contains login page test cases
-        ├── RegisterTest.java # Contains register page test cases
-        ├── SearchTest.java # Contains search page test cases
-├── src/test/resource # resources
-    ├── testng.xml # TestNG test suite
-├── JRE System Library # Java JAr files
-├── Maven Dependencies # Maven Dependencies JAr files
-├── Screenshots # Screenshots of error pages
-├── src file # SOurce file
-    ├── main # main file
-    ├── test # test file
-├── test-output # Test reports and logs
-    ├── ExtentReport # Stores ExtentReport
-├── pom.xml # Page Object Model xml file
-├── README.md # Project documentation
+ ├── src/main/java                  # Main source code
+ │   ├── com.tutorialproject.qa.config   
+ │   │   ├── config.properties       # Configuration properties
+ │   ├── com.tutorialproject.qa.listeners
+ │   │   ├── MyListeners.java        # Listeners Java code
+ │   ├── com.tutorialproject.qa.pages
+ │   │   ├── Account.java            # Account related Page
+ │   │   ├── AccountSuccess.java     # Account Success Page
+ │   │   ├── HomePage.java           # Home Page
+ │   │   ├── LoginPage.java          # Login Page
+ │   │   ├── RegisterPage.java       # Register Page
+ │   │   ├── SearchPage.java         # Search Page
+ │   ├── com.tutorialproject.qa.testdata
+ │   │   ├── testdata.properties     # Test Data Properties
+ │   │   ├── tutorialProjectTestData.xlsx  # Excel Sheet for Test Data
+ │   ├── com.tutorialproject.qa.utils
+ │   │   ├── ExtremeReporter.java    # Contains ExtentReports
+ │   │   ├── Utilities.java          # Contains Utilities
+ ├── src/test/java                   # Test scripts
+ │   ├── com.tutorialproject.qa.base
+ │   │   ├── Base.java               # Base class
+ │   ├── com.tutorialproject.qa.testcases
+ │   │   ├── LoginTest.java          # Login Page test cases
+ │   │   ├── RegisterTest.java       # Register Page test cases
+ │   │   ├── SearchTest.java         # Search Page test cases
+ ├── src/test/resources              # Resources
+ │   ├── testng.xml                  # TestNG test suite
+ ├── JRE System Library               # Java JAR files
+ ├── Maven Dependencies               # Maven Dependencies JAR files
+ ├── Screenshots                      # Screenshots of error pages
+ ├── test-output                      # Test reports and logs
+ │   ├── ExtentReport                 # Stores Extent Report
+ ├── pom.xml                           # Page Object Model XML file
+ ├── README.md                         # Project documentation
 
 ## Technologies Used  
 - **Programming Language:** Java  
